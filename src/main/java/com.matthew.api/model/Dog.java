@@ -1,4 +1,4 @@
-package com.matthew.myproject.model;
+package com.matthew.api.model;
 
 // Class Declaration
 public class Dog

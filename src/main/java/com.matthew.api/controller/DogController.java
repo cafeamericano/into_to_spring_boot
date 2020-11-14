@@ -1,4 +1,4 @@
-package com.matthew.myproject.controller;
+package com.matthew.api.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.matthew.myproject.model.Dog;
+import com.matthew.api.model.Dog;
 
 @RestController
 public class DogController {
