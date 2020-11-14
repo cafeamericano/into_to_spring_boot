@@ -1,8 +1,9 @@
-package com.tutorialspoint.demo.model;
+package com.matthew.myproject.model;
 
 public class Product {
    private String id;
    private String name;
+   private String phrase;
 
    public String getId() {
       return id;
@@ -15,5 +16,10 @@ public class Product {
    }
    public void setName(String name) {
       this.name = name;
+   }
+
+   public String parrotBack(String phrase) {
+      String fullPhrase = phrase + "_squawk";
+      return fullPhrase;
    }
 }

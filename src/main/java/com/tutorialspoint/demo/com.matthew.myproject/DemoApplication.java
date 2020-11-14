@@ -1,4 +1,4 @@
-package com.tutorialspoint.demo;
+package com.matthew.myproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
